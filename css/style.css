@@ -203,7 +203,7 @@ textarea{
 .typed::after{
     content: "";
     animation-name: typingSkill;
-    animation-duration: 7s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
 }
 @keyframes typingSkill{
