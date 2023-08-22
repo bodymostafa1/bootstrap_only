@@ -1,0 +1,263 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#home{
+    background-image: url(../imgs/imgs/bg.jpg);
+    background-position: center center;
+    background-size:cover ;
+}
+.layer-black{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.icon-xs{
+    width: 32px;
+    height: 32px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.too-bold{
+    font-weight: 800;
+}
+nav{
+    background-color: white;
+}
+.light-text{
+    color: #748182;
+}
+.progress{
+    height: 25px;
+}
+.sm-text{
+    font-size: 12px;
+}
+.button-dark{
+    transition:all 0.5s;
+    background-color: black;
+    color: white;
+}
+.button-dark:hover{
+    background-color: white;
+    color: black;
+}
+.button-light{
+    transition:all 0.5s;
+    background-color: white;
+    color: black;
+}
+.button-light:hover{
+    background-color: black;
+    color: white;
+}
+.text-dot::before{
+content: "";
+width: 13%;
+height: 20%;
+position: absolute;
+top: 50px;
+background-image: url(../imgs/imgs/dots.png);
+}
+.icon-sm{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.text{
+    font-size: 14px;
+    line-height: 25px;
+}
+.card-hover:hover .icon-sm{
+background-color: black !important; 
+color: white;
+}
+.w-90{
+    width: 90%;
+}
+.img-overlay{
+    
+    position: absolute;
+top: 5px;
+left: 15px;
+right: 15px;
+bottom: 5px;
+opacity: 0;
+background-color: white;
+transition: all 0.5s;
+z-index: 2;
+}
+.img-overlay:hover{
+    opacity: 1;
+}
+.content-icon{
+    background-color: black;
+    color: white;
+    width: 28px;
+    height: 28px;
+    transition: all 0.5s;
+    border: solid 1px black;
+}
+.content-icon:hover{
+    background-color: white;
+    color: black;
+}
+.w-10{
+    width: 10%;
+}
+.carousel-indicators button {
+	height: 10px !important;
+  width: 10px !important;
+  border-radius: 50%;
+  background-color: #748182 !important;
+}
+.bg-dark-color{
+    background-color: #5A5A5A;
+}
+#team img{
+    transition: all 0.3s;
+}
+#team img:hover{
+    transform: scale(1.1);
+}
+.img-overlay-team{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    right: 15px;
+    bottom: 105px;
+    opacity: 0;
+    transform: rotateY(180deg);
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s;
+    z-index: 2;
+}
+.team-icon{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.team-icon:hover{
+    background-color: white;
+    color: black;
+}
+#team .card:hover .img-overlay-team{
+opacity: 1;
+transform: rotateY(0);
+}
+#team img{
+    transition: all 0.3s;
+}
+#team .card:hover img{
+    transform: scale(1.1);
+}
+.icon{
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transition: all 0.5s;
+    width: 55px;
+    height: 55px;
+    background-color: #eaeaeb;
+    cursor:pointer
+}
+.icon-hover:hover .icon{
+    background-color: black;
+    color: white;
+}
+input{
+    background-color: #eaeaeb;
+    border: none;
+    border-radius: 5px;
+    color: #484d4d;
+    height: 40px;
+    outline: none;
+}
+textarea{
+    background-color: #eaeaeb;
+    border: none;
+    border-radius: 5px;
+    color: #484d4d;
+    outline: none;
+    
+}
+.typed::after{
+    content: "";
+    animation-name: typingSkill;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes typingSkill{
+
+    0%{ content: "|"; }
+
+    2% { content: "A|"; }
+    4% { content: "Ab|"; }
+    6% { content: "Abd|"; }
+    8% { content: "Abde|"; }
+    10% { content: "Abdel|"; }
+    12% { content: "Abdelr|"; }
+    14% { content: "abdelra|"; }
+    16% { content: "Abdelrah|"; }
+    18% { content: "Abdelrahm|"; }
+    20% { content: "Abdelrahma|"; }
+    22% { content: "Abdelrahman|"; }
+    24% { content: "Abdelrahman |"; }
+    26% { content: "Abdelrahman M|"; }
+    28% { content: "Abdelrahman Mo|"; }
+    30% { content: "Abdelrahman Mos|"; }
+    32% { content: "Abdelrahman Most|"; }
+    34% { content: "Abdelrahman Mosta|"; }
+    36% { content: "Abdelrahman Mostaf|"; }
+    38% { content: "Abdelrahman Mostafa|"; }
+    40% { content: "Abdelrahman Mostaf|"; }
+    42% { content: "Abdelrahman Mosta|"; }
+    44% { content: "Abdelrahman Most|"; }
+    46% { content: "Abdelrahman Mos|"; }
+    48% { content: "Abdelrahman Mo|"; }
+    50% { content: "Abdelrahman M|"; }
+    52% { content: "Abdelrahman|"; }
+    54% { content: "Abdelrahma|"; }
+    56% { content: "Abdelrahm|"; }
+    58% { content: "Abdelrah|"; }
+    60% { content: "Abdelra|"; }
+    62% { content: "Abdelr|"; }
+    64% { content: "Abdel|"; }
+    66% { content: "Abde|"; }
+    68% { content: "Abd|"; }
+    70% { content: "Ab|"; }
+    72% { content: "A|"; }
+    74% { content: "|"; }
+    78% { content: "D|"; }
+    80% { content: "De|"; }
+    82% { content: "Dev|"; }
+    84% { content: "Deve|"; }
+    86% { content: "Devel|"; }
+    88% { content: "Develo|"; }
+    90% { content: "Develop|"; }
+    92% { content: "Develope|"; }
+    94% { content: "Developer|"; }
+    96% { content: "Developer|"; }
+    98% { content: "Developer|"; }
+    100%{  }
+
+}
